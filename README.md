@@ -1,7 +1,7 @@
 
 # vservice
 
-* At the path : .\vservice\src\main\resources there is a Service.SQL script to create the schema and the table and populate it
+* At the path:  .\vservice\src\main\resources there is a Service.SQL script to create the schema and the table and populate it
 * Go to the directory vservice and use: mvn package
 * Go to the directory vservice\target 
 * Use java -jar vservice-0.0.1-SNAPSHOT.jar
