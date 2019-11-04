@@ -11,19 +11,19 @@
 
 
 *`URL:localhost:8081/VService/api/product`
-Reponse:Inserts an object to the database 
+Reponse- Inserts an object to the database 
 
 *`URL:localhost:8081/VService/api/product/findByName/{name}`
-Response:Retrieves object by name
+Response - Retrieves object by name
 
 *`URL:localhost:8081/VService/api/product/{code}`
-Response:Retrieves object by code
+Response - Retrieves object by code
 
 *`URL:localhost:8081/VService/api/product/deactivate/{code}`
-Response:Deactivates the object from the database
+Response - Deactivates the object from the database
 
 *`URL:localhost:8081/VService/api/product/priceDesc`
-Response:Retrieves objects ordered by price descending
+Response - Retrieves objects ordered by price descending
 
 *`URL:localhost:8081/VService/api/product/priceAsc`
-Response:Retrieves objects ordered by price ascending
+Response - Retrieves objects ordered by price ascending
