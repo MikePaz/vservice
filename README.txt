@@ -7,22 +7,22 @@
 6)Using postman with the apposed URLS u will get the following json responses
 
 
-URL:localhost:8081/VService/api/product
+*`URL:localhost:8081/VService/api/product`
 Reponse:Inserts an object to the database 
 
-URL:localhost:8081/VService/api/product/findByName/{name}
+*`URL:localhost:8081/VService/api/product/findByName/{name}`
 Response:Retrieves object by name
 
-URL:localhost:8081/VService/api/product/{code}
+*`URL:localhost:8081/VService/api/product/{code}`
 Response:Retrieves object by code
 
-URL:localhost:8081/VService/api/product/deactivate/{code}
+*`URL:localhost:8081/VService/api/product/deactivate/{code}`
 Response:Deactivates the object from the database
 
-URL:localhost:8081/VService/api/product/priceDesc
+*URL:localhost:8081/VService/api/product/priceDesc`
 Response:Retrieves objects ordered by price descending
 
-URL:localhost:8081/VService/api/product/priceAsc
+*URL:localhost:8081/VService/api/product/priceAsc`
 Response:Retrieves objects ordered by price ascending
 
 
