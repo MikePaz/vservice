@@ -1,0 +1,10 @@
+Q:User authentication: How would secure your API if you were requested to do so? 
+
+A:I would use OAuth to expose a single endpoint for the login process.The client will then pass the user credentials to the API where the user is authenticated on the server.
+Once authenticated, a security token is generated and stored on the server and is returned to the client.
+The client will then pass this token to the API in order to access restricted endpoints. The token is validated on the server side.
+
+Q: How much of your API / Code would be reused if you were to also develop an API that would be consumed from the mobile application?
+
+A:Since its an exposed REST API the code could be reused in a mobile App.
+The only change is the consumer of the API which should not make any difference at the back-end code.
