@@ -7,7 +7,7 @@
 6)Using postman with the apposed URLS u will get the following json responses
 
 
-*`URL:localhost:8081/VService/api/product`
+* `URL:localhost:8081/VService/api/product`
 Reponse:Inserts an object to the database 
 
 *`URL:localhost:8081/VService/api/product/findByName/{name}`
